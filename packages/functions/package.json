@@ -1,0 +1,17 @@
+{
+  "name": "@rocket-tower-poll-bot/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "dependencies": {
+    "sst": "2.43.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@types/aws-lambda": "^8.10.145",
+    "vitest": "^2.0.5"
+  }
+}
